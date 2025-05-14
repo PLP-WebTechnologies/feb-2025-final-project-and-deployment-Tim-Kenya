@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="posts.html">Posts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                Menu
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to My Thoughts</h1>
+            <p>Sharing my insights and experiences.</p>
+        </section>
+
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article>
+                    <img src="images/post1-thumbnail.jpg" alt="Thumbnail for Post 1">
+                    <h3><a href="post-detail.html?id=1">The Joy of Coding</a></h3>
+                    <p>An exploration of the rewarding feeling of writing code...</p>
+                    <a href="post-detail.html?id=1" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <img src="images/post2-thumbnail.jpg" alt="Thumbnail for Post 2">
+                    <h3><a href="post-detail.html?id=2">Responsive Web Design Tips</a></h3>
+                    <p>Key techniques for building websites that adapt to any screen...</p>
+                    <a href="post-detail.html?id=2" class="read-more">Read More</a>
+                </article>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Awesome Blog</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
