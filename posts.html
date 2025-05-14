@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts - My Awesome Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="posts.html" class="active">Posts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                Menu
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="post-list">
+            <h2>All Blog Posts</h2>
+            <article>
+                <h3><a href="post-detail.html?id=3">Getting Started with JavaScript</a></h3>
+                <p class="post-meta">Published on May 15, 2025</p>
+                <p>A beginner-friendly guide to the fundamentals of JavaScript...</p>
+                <a href="post-detail.html?id=3" class="read-more">Read More</a>
+            </article>
+            <article>
+                <h3><a href="post-detail.html?id=4">The Power of CSS Flexbox</a></h3>
+                <p class="post-meta">Published on May 10, 2025</p>
+                <p>Learn how Flexbox can simplify your web layouts...</p>
+                <a href="post-detail.html?id=4" class="read-more">Read More</a>
+            </article>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Awesome Blog</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
